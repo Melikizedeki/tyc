@@ -209,27 +209,37 @@ const Header = () => {
       )}
 
       {/* DONATE POPUP */}
-      {donateOpen && (
-        <div className="fixed inset-0 bg-opacity-40 flex items-center justify-center z-50">
-          <div className="bg-white rounded-2xl p-8 max-w-sm text-center shadow-xl">
-            <h2 className="text-2xl font-bold text-teal-800 mb-4">Support Our Work</h2>
-            <p className="text-gray-600 mb-4">Donate through the following CRDB bank account</p>
+ {donateOpen && (
+  <div className="fixed inset-0 bg-opacity-40 flex items-center justify-center z-50">
+    <div className="bg-white rounded-2xl p-8 max-w-sm text-center shadow-xl">
+      <h2 className="text-2xl font-bold text-teal-800 mb-4">Support Our Work</h2>
+      <p className="text-gray-600 mb-4">
+        You can support our work through the following bank accounts
+      </p>
 
-            <div className="bg-gray-100 rounded-lg p-4 mb-5 text-left">
-              <p><strong>Bank:</strong> CRDB</p>
-              <p><strong>Account:</strong> Tanzania Youth Children</p>
-              <p><strong>Number:</strong> 000000000</p>
-            </div>
+      {/* CRDB */}
+      <div className="bg-gray-100 rounded-lg p-4 mb-4 text-left">
+        <p><strong>Bank Name:</strong> CRDB</p>
+        <p><strong>Account Number:</strong> 015C69 0969 800</p>
+        <p><strong>Account Name:</strong> Tanzanian Youth and Children (TYC)</p>
+      </div>
 
-            <button
-              onClick={() => setDonateOpen(false)}
-              className="bg-red-500 hover:bg-red-600 text-white px-6 py-2 rounded-lg"
-            >
-              Close
-            </button>
-          </div>
-        </div>
-      )}
+      {/* NBC */}
+      <div className="bg-gray-100 rounded-lg p-4 mb-5 text-left">
+        <p><strong>Bank Name:</strong> NBC</p>
+        <p><strong>Account Number:</strong> 024 174 074 969</p>
+        <p><strong>Account Name:</strong> TANZANIAN YOUTH AND CHILDREN (TYC)</p>
+      </div>
+
+      <button
+        onClick={() => setDonateOpen(false)}
+        className="bg-red-500 hover:bg-red-600 text-white px-6 py-2 rounded-lg"
+      >
+        Close
+      </button>
+    </div>
+  </div>
+)}
 
     </header>
   );
