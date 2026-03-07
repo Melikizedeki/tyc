@@ -41,7 +41,11 @@ icon: faHandshake,
 const EVENTS = [
 {
 id: 1,
+<<<<<<< HEAD
 title: "TYC Supports Community Tree Planting in Shinyanga",
+=======
+title: "TYC Join Malala Yousafzai Delegation",
+>>>>>>> 748ff3978d11bb0b058b22b828823bd69fa4bc01
 date: "July 2025",
 img: malala,
 },
@@ -100,7 +104,11 @@ className="absolute w-full h-full object-cover transition-opacity duration-500"
 <div className="absolute inset-0 bg-black/10 flex flex-col justify-center items-center text-center px-6">
 
 <h1 className="text-3xl sm:text-4xl md:text-6xl font-extrabold text-white mb-6 animate-fadeIn">
+<<<<<<< HEAD
 Empowering Tanzanian <span className="text-teal-400">Youth and Children</span>
+=======
+Empowering Tanzania’s <span className="text-teal-400">Youth & Children</span>
+>>>>>>> 748ff3978d11bb0b058b22b828823bd69fa4bc01
 </h1>
 
 <p className="text-sm md:text-lg text-gray-200 max-w-2xl mb-8">
