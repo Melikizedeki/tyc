@@ -41,7 +41,7 @@ icon: faHandshake,
 const EVENTS = [
 {
 id: 1,
-title: "TYC Join Malala Yousafzai Delegation",
+title: "TYC Supports Community Tree Planting in Shinyanga",
 date: "July 2025",
 img: malala,
 },
@@ -94,13 +94,13 @@ return (
 <img
 src={slides[current]}
 alt="Hero Slide"
-className="absolute w-full h-full object-cover transition-opacity duration-1000"
+className="absolute w-full h-full object-cover transition-opacity duration-500"
 />
 
 <div className="absolute inset-0 bg-black/10 flex flex-col justify-center items-center text-center px-6">
 
 <h1 className="text-3xl sm:text-4xl md:text-6xl font-extrabold text-white mb-6 animate-fadeIn">
-Empowering Tanzania’s <span className="text-teal-400">Youth & Children</span>
+Empowering Tanzanian <span className="text-teal-400">Youth and Children</span>
 </h1>
 
 <p className="text-sm md:text-lg text-gray-200 max-w-2xl mb-8">
@@ -109,13 +109,12 @@ Providing inclusive, quality and skill-based education to unlock their potential
 
 <div className="flex flex-col sm:flex-row gap-4">
 
-<button className="bg-green-500 hover:bg-green-600 text-white px-8 py-3 rounded-full font-semibold transition transform hover:scale-105">
-Join Us Today
-</button>
+<Link to="/contact">
+  <button className="bg-green-500 hover:bg-green-600 text-white px-8 py-3 rounded-full font-semibold transition transform hover:scale-105">
+    Join Us Today
+  </button>
+</Link>
 
-<button className="bg-white hover:bg-gray-100 text-teal-900 px-8 py-3 rounded-full font-semibold transition transform hover:scale-105">
-Donate Now
-</button>
 
 </div>
 

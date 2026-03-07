@@ -10,11 +10,11 @@ import violence from "../../assets/events/violence.png";
 const EVENTS = [
   {
     id: 1,
-    title: "TYC join in  Malala Yousafzai delagation",
+    title: "TYC Supports Community Tree Planting in Shinyanga",
     date: "July 2025",
     image: malala,
     description:
-      "As powerful convergence of global influence and national action, Malala Yousafzai’s visit to Tanzania on 9th July 2025 (Malala Day) marked a pivotal moment for girls’ education. Com",
+      "he Tanzania Youth Coalition (TYC) continues to promote environmental sustainability by supporting community tree planting initiatives in Shinyanga. Through this activity, TYC works closely"
   },
   {
     id: 2,
@@ -30,7 +30,8 @@ const EVENTS = [
     date: "April 2025",
     image: parliament,
     description:
-      "In the halls of Tanzania Parliament this April, TYC engaged 62 Members of Parliament (29 women and 33 men) from the Parliamentary Permanent Committees on Education, Sports and Culture; Socia",
+    "TYC  Executive Director with Ten/Met Bord Chairperson, UNICEF & UNESCO Developemnt Partners in Collaboration with the Minister  of Education office, during presentation of Education budget at Dodoma parliamentary  hall on May-2025"
+      
   },
 
   {
