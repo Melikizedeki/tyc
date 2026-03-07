@@ -48,7 +48,7 @@ const ACTIVE = [
       { name: "Policy Forum", logo: partner16 },
       { name: "mkuki", logo: partner17 },
       { name: "Tanzania Ending Child Marriage Network ( TECMN)", logo: partner18 },
-=======
+
 
 const STRATEGIC_PARTNERS = [
   { name: "Tanzania Development Trust", logo: partner1 },
