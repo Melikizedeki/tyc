@@ -48,27 +48,13 @@ const ACTIVE = [
       { name: "Policy Forum", logo: partner16 },
       { name: "mkuki", logo: partner17 },
       { name: "Tanzania Ending Child Marriage Network ( TECMN)", logo: partner18 },
+]
 
 
-const STRATEGIC_PARTNERS = [
-  { name: "Tanzania Development Trust", logo: partner1 },
-  { name: "WAJIBU - Institute of Public Accountability", logo: partner2 },
-  { name: "Ten/Met", logo: partner3 },
-  { name: "Tanzania Gender Networking Program (TGNP)", logo: partner4 },
-  { name: "Africa Giving", logo: partner5 },
-  { name: "Tanzania Youth Coalition (TYC)", logo: partner6 },
-];
 
-const DEVELOPMENT_PARTNERS = [
-  { name: "Tanzania Non-Governmental Organization (TANGO)", logo: partner7 },
-  { name: "National Council of Non-Governmental Organization (NaCoNGO)", logo: partner8 },
-  { name: "MKUKI Coalition", logo: partner9 },
-  { name: "Tanzania Child Rights Forum (TCRF)", logo: partner10 },
-  { name: "Tanzania Human Rights Defenders Coalition", logo: partner11 },
-  { name: "Haki Elimu", logo: partner12 },
-  { name: "AfriYAN", logo: partner13 },
 
-];
+
+
 
 const Partners = () => {
   return (
