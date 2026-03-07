@@ -1,5 +1,5 @@
 import parliament from "../assets/events/parliament.png";
-import malala from "../assets/events/malala.png";
+import malala from "../assets/events/malala.PNG";
 import children from "../assets/events/children.png";
 import violence from "../assets/events/violence.png";
 
