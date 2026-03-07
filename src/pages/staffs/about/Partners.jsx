@@ -8,16 +8,13 @@ import partner4 from "../../../assets/partner/partner4.png";
 import partner5 from "../../../assets/partner/partner5.png";
 import partner6 from "../../../assets/partner/partner6.png";
 import partner7 from "../../../assets/partner/partner7.png";
-<<<<<<< HEAD
-=======
-import partner8 from "../../../assets/partner/partner8.png";
->>>>>>> 748ff3978d11bb0b058b22b828823bd69fa4bc01
+
 import partner9 from "../../../assets/partner/partner9.png";
 import partner10 from "../../../assets/partner/partner10.png";
 import partner11 from "../../../assets/partner/partner11.png";
 import partner12 from "../../../assets/partner/partner12.png";
 import partner13 from "../../../assets/partner/partner13.png";
-<<<<<<< HEAD
+
 import partner14 from "../../../assets/partner/partner14.png";
 import partner15 from "../../../assets/partner/partner15.png";
 import partner16 from "../../../assets/partner/partner16.png";
@@ -70,7 +67,7 @@ const DEVELOPMENT_PARTNERS = [
   { name: "Tanzania Human Rights Defenders Coalition", logo: partner11 },
   { name: "Haki Elimu", logo: partner12 },
   { name: "AfriYAN", logo: partner13 },
->>>>>>> 748ff3978d11bb0b058b22b828823bd69fa4bc01
+
 ];
 
 const Partners = () => {
@@ -137,7 +134,7 @@ const Partners = () => {
         </div>
       </section>
 
-<<<<<<< HEAD
+
         <section className="py-10 md:py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <h2 className="text-xl md:text-2xl font-bold text-teal-900 text-center mb-4">
@@ -162,8 +159,7 @@ const Partners = () => {
         </div>
       </section>
 
-=======
->>>>>>> 748ff3978d11bb0b058b22b828823bd69fa4bc01
+
       {/* ===== HOW WE COLLABORATE ===== */}
       <section className="py-20 bg-slate-100">
         <div className="max-w-6xl mx-auto px-6 text-center">
