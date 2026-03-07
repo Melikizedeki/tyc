@@ -34,6 +34,7 @@ const Header = () => {
 
       {/* TOP BAR */}
       <div className="max-w-7xl mx-auto flex justify-between items-center px-6 py-4">
+        
         {/* LOGO */}
         <div className="flex items-center gap-3">
           <img src="/logo.png" alt="TYC Logo" className="w-10 h-10" />
@@ -45,14 +46,15 @@ const Header = () => {
           <a href="https://www.facebook.com/people/Tanzanian-Youth-and-Children/61588276603612/" className="hover:text-teal-500 transition">
             <FontAwesomeIcon icon={faFacebookF} />
           </a>
+
           <a href="#" className="hover:text-teal-500 transition">
             <FontAwesomeIcon icon={faXTwitter} />
           </a>
+
           <a href="https://www.instagram.com/tanzanian_youth_children/" className="hover:text-teal-500 transition">
             <FontAwesomeIcon icon={faInstagram} />
           </a>
 
-          {/* ADDED LINKEDIN */}
           <a href="https://www.linkedin.com/feed/" className="hover:text-teal-500 transition">
             <FontAwesomeIcon icon={faLinkedinIn} />
           </a>
@@ -72,18 +74,24 @@ const Header = () => {
         >
           <FontAwesomeIcon icon={mobileMenuOpen ? faTimes : faBars} />
         </button>
+
       </div>
 
       {/* DESKTOP NAV */}
       <nav className="hidden md:block bg-teal-800 text-white">
         <div className="max-w-7xl mx-auto flex justify-center gap-10 py-4 text-sm font-semibold uppercase">
+
           <Link to="/" className="hover:text-teal-300 transition">Home</Link>
 
           {/* Desktop About */}
           <div className="relative" ref={aboutRef}>
-            <button onClick={() => setDesktopAboutOpen(prev => !prev)} className="hover:text-teal-300 transition">
+            <button
+              onClick={() => setDesktopAboutOpen(prev => !prev)}
+              className="hover:text-teal-300 transition"
+            >
               ABOUT US
             </button>
+
             {desktopAboutOpen && (
               <div className="absolute left-1/2 -translate-x-1/2 top-10 w-64 bg-white text-teal-900 rounded-xl shadow-xl p-5">
                 <Link to="/about/history" className="block py-2 hover:text-teal-600">Our History</Link>
@@ -100,9 +108,13 @@ const Header = () => {
 
           {/* Desktop Publications */}
           <div className="relative" ref={publicationsRef}>
-            <button onClick={() => setDesktopPublicationsOpen(prev => !prev)} className="hover:text-teal-300 transition">
+            <button
+              onClick={() => setDesktopPublicationsOpen(prev => !prev)}
+              className="hover:text-teal-300 transition"
+            >
               PUBLICATIONS
             </button>
+
             {desktopPublicationsOpen && (
               <div className="absolute left-1/2 -translate-x-1/2 top-10 w-64 bg-white text-teal-900 rounded-xl shadow-xl p-5">
                 <a href="https://drive.google.com/file/d/1BhmU-gaoCKLMp7qUySFog-MXGNWQIWhI/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="block py-2 hover:text-teal-600">Annual Report 2025</a>
@@ -112,6 +124,7 @@ const Header = () => {
           </div>
 
           <Link to="/contact" className="hover:text-teal-300 transition">Contact</Link>
+
         </div>
       </nav>
 
@@ -119,6 +132,7 @@ const Header = () => {
       {mobileMenuOpen && (
         <nav className="md:hidden bg-white border-t animate-slideDown">
           <div className="px-6 py-4 space-y-3">
+
             <Link to="/" className="block py-2 font-semibold text-teal-800" onClick={() => setMobileMenuOpen(false)}>Home</Link>
 
             {/* Mobile About */}
@@ -129,6 +143,7 @@ const Header = () => {
               >
                 About Us <span>{mobileAboutOpen ? "-" : "+"}</span>
               </button>
+
               {mobileAboutOpen && (
                 <div className="pl-4 mt-1 space-y-2 border-l-2 bg-teal-300">
                   <Link to="/about/history" onClick={() => { setMobileMenuOpen(false); setMobileAboutOpen(false); }} className="block py-1 text-gray-700">Our History</Link>
@@ -145,9 +160,13 @@ const Header = () => {
 
             {/* Mobile Publications */}
             <div>
-              <button onClick={() => setMobilePublicationsOpen(prev => !prev)} className="w-full flex justify-between items-center py-2 text-teal-800 font-semibold">
+              <button
+                onClick={() => setMobilePublicationsOpen(prev => !prev)}
+                className="w-full flex justify-between items-center py-2 text-teal-800 font-semibold"
+              >
                 Publications <span>{mobilePublicationsOpen ? "-" : "+"}</span>
               </button>
+
               {mobilePublicationsOpen && (
                 <div className="pl-4 mt-1 space-y-2 border-l-2 bg-teal-300">
                   <a href="https://drive.google.com/file/d/1BhmU-gaoCKLMp7qUySFog-MXGNWQIWhI/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="block py-1 text-gray-700" onClick={() => setMobileMenuOpen(false)}>Annual Report 2025</a>
@@ -158,17 +177,28 @@ const Header = () => {
 
             <Link to="/contact" onClick={() => setMobileMenuOpen(false)} className="block py-2 text-teal-800">Contact</Link>
 
-            {/* ADDED MOBILE SOCIAL ICONS */}
+            {/* ADDED MOBILE DONATE BUTTON */}
+            <button
+              onClick={() => setDonateOpen(true)}
+              className="w-full bg-green-500 hover:bg-green-600 text-white py-3 rounded-full font-semibold transition transform hover:scale-105 mt-3"
+            >
+              Donate
+            </button>
+
+            {/* MOBILE SOCIAL ICONS */}
             <div className="flex justify-center gap-6 pt-4 text-teal-700 text-xl border-t mt-4">
               <a href="https://www.facebook.com/people/Tanzanian-Youth-and-Children/61588276603612/" className="hover:text-teal-500">
                 <FontAwesomeIcon icon={faFacebookF} />
               </a>
+
               <a href="#" className="hover:text-teal-500">
-               <FontAwesomeIcon icon={faXTwitter} />
+                <FontAwesomeIcon icon={faXTwitter} />
               </a>
+
               <a href="https://www.instagram.com/tanzanian_youth_children/" className="hover:text-teal-500">
                 <FontAwesomeIcon icon={faInstagram} />
               </a>
+
               <a href="https://www.linkedin.com/feed/" className="hover:text-teal-500">
                 <FontAwesomeIcon icon={faLinkedinIn} />
               </a>
@@ -184,12 +214,19 @@ const Header = () => {
           <div className="bg-white rounded-2xl p-8 max-w-sm text-center shadow-xl">
             <h2 className="text-2xl font-bold text-teal-800 mb-4">Support Our Work</h2>
             <p className="text-gray-600 mb-4">Donate through the following CRDB bank account</p>
+
             <div className="bg-gray-100 rounded-lg p-4 mb-5 text-left">
               <p><strong>Bank:</strong> CRDB</p>
               <p><strong>Account:</strong> Tanzania Youth Children</p>
               <p><strong>Number:</strong> 000000000</p>
             </div>
-            <button onClick={() => setDonateOpen(false)} className="bg-red-500 hover:bg-red-600 text-white px-6 py-2 rounded-lg">Close</button>
+
+            <button
+              onClick={() => setDonateOpen(false)}
+              className="bg-red-500 hover:bg-red-600 text-white px-6 py-2 rounded-lg"
+            >
+              Close
+            </button>
           </div>
         </div>
       )}
