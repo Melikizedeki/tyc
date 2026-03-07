@@ -16,7 +16,6 @@ const EVENTS = [
     image: malala,
     description:
       "The Tanzania Youth Coalition (TYC) continues to promote environmental sustainability by supporting community tree planting initiatives in Shinyanga. Through this activity, TYC works closely"
-1
   },
   {
     id: 2,
