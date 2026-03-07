@@ -9,7 +9,7 @@ import slide3 from "../../assets/director.png";
 import slide4 from "../../assets/simple.png";
 
 import parliament from "../../assets/events/parliament.png";
-import malala from "../../assets/events/malala.png";
+import malala from "../../assets/events/malala.PNG";
 import children from "../../assets/events/children.png";
 
 import learn from "../../assets/programs/learn.png";
