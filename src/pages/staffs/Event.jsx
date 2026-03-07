@@ -10,19 +10,13 @@ import violence from "../../assets/events/violence.png";
 const EVENTS = [
   {
     id: 1,
-<<<<<<< HEAD
+
     title: "TYC Supports Community Tree Planting in Shinyanga",
     date: "July 2025",
     image: malala,
     description:
-      "he Tanzania Youth Coalition (TYC) continues to promote environmental sustainability by supporting community tree planting initiatives in Shinyanga. Through this activity, TYC works closely"
-=======
-    title: "TYC join in  Malala Yousafzai delagation",
-    date: "July 2025",
-    image: malala,
-    description:
-      "As powerful convergence of global influence and national action, Malala Yousafzai’s visit to Tanzania on 9th July 2025 (Malala Day) marked a pivotal moment for girls’ education. Com",
->>>>>>> 748ff3978d11bb0b058b22b828823bd69fa4bc01
+      "The Tanzania Youth Coalition (TYC) continues to promote environmental sustainability by supporting community tree planting initiatives in Shinyanga. Through this activity, TYC works closely"
+1
   },
   {
     id: 2,
