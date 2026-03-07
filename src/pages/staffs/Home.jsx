@@ -94,7 +94,7 @@ return (
 <img
 src={slides[current]}
 alt="Hero Slide"
-className="absolute w-full h-full object-cover transition-opacity duration-1000"
+className="absolute w-full h-full object-cover transition-opacity duration-500"
 />
 
 <div className="absolute inset-0 bg-black/10 flex flex-col justify-center items-center text-center px-6">
