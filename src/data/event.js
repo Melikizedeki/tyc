@@ -4,7 +4,7 @@ import children from "../assets/events/children.png";
 import violence from "../assets/events/violence.png";
 
 const EVENTS = [
-<<<<<<< HEAD
+
 {
   id: 1,
   title: "TYC Supports Community Tree Planting in Shinyanga",
@@ -19,7 +19,7 @@ TYC also educates community members on the importance of environmental conservat
 Through these efforts, TYC demonstrates its commitment to community development, environmental protection, and building a sustainable future for the people of Shinyanga.`,
   gallery: [malala]
 },
-=======
+
   {
     id: 1,
     title: "TYC join in Malala Yousafzai delegation",
@@ -29,7 +29,7 @@ Through these efforts, TYC demonstrates its commitment to community development,
       "As a powerful convergence of global influence and national action, Malala Yousafzai’s visit to Tanzania on 9th July 2025 (Malala Day) marked a pivotal moment for girls’ education. The visit strengthened advocacy efforts and inspired stakeholders across the country to prioritize access to quality education for every girl.",
     gallery: [malala, parliament]
   },
->>>>>>> 748ff3978d11bb0b058b22b828823bd69fa4bc01
+
   {
     id: 2,
     title: "Children protection and safeguarding in Shinyanga",
@@ -45,11 +45,9 @@ Through these efforts, TYC demonstrates its commitment to community development,
     date: "April 2025",
     image: parliament,
     description:
-<<<<<<< HEAD
       "TYC  Executive Director with Ten/Met Bord Chairperson, UNICEF & UNESCO Developemnt Partners in Collaboration with the Minister  of Education office, during presentation of Education budget at Dodoma parliamentary  hall on May-2025",
-=======
-      "In the halls of Tanzania Parliament, TYC engaged 62 Members of Parliament to advance gender equity in education and social development. The meeting emphasized policy reform and accountability to ensure equal opportunities for girls and boys.",
->>>>>>> 748ff3978d11bb0b058b22b828823bd69fa4bc01
+
+  
     gallery: [parliament]
   },
   {
