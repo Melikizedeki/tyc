@@ -38,7 +38,7 @@ const Header = () => {
         {/* LOGO */}
         <div className="flex items-center gap-3">
           <img src="/logo.png" alt="TYC Logo" className="w-10 h-10" />
-          <h1 className="text-lg sm:text-xl font-bold text-teal-800">Tanzania Youth Children</h1>
+          <h1 className="text-lg sm:text-xl font-bold text-teal-800">Tanzanian Youth and Children</h1>
         </div>
 
         {/* DESKTOP SOCIAL + DONATE */}
