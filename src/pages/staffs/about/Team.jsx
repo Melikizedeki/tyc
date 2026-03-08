@@ -6,9 +6,9 @@ import heroImg from "../../../assets/face.png"; // hero image
 import lucas from "../../../assets/team/director.png"; // replace with real photos
 import shabani from "../../../assets/team/shaban.png";
 import subilaga from "../../../assets/team/zonal.png";
-import mary from "../../../assets/water.png";
 import merciana from "../../../assets/team/project.png";
 import mariam from "../../../assets/face.png";
+import mary from "../../../assets/team/mary.png";
 
 const LEADERSHIP = [
   {
