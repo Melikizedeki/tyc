@@ -9,7 +9,7 @@ import partner5 from "../../../assets/partner/partner5.png";
 import partner6 from "../../../assets/partner/partner6.png";
 import partner7 from "../../../assets/partner/partner7.png";
 
-import partner9 from "../../../assets/partner/partner9.png";
+
 import partner10 from "../../../assets/partner/partner10.png";
 import partner11 from "../../../assets/partner/partner11.png";
 import partner12 from "../../../assets/partner/partner12.png";
@@ -24,7 +24,7 @@ import partner18 from "../../../assets/partner/partner18.png";
 const STRATEGIC_PARTNERS = [
   
   { name: "Tanzania Gender Networking Program (TGNP)", logo: partner4 },
-  { name: "MKUKI Coalition", logo: partner9 },
+ 
   { name: "Haki Elimu", logo: partner12 },
   { name: "AfriYAN", logo: partner13 },
   { name: "AfriYAN", logo: partner14 },
