@@ -81,8 +81,8 @@ function Contact() {
             <div>
               <h3 className="font-semibold text-[#2d4256]">Mobile</h3>
               <p className="text-gray-600">
-                0756-548 613<br />
-                0684-987 213
+                +255 756 548 613<br />
+                +255 684 987 213
               </p>
             </div>
           </div>

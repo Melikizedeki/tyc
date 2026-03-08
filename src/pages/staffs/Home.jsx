@@ -54,7 +54,7 @@ img: children,
 {
 id: 3,
 title: "Gender Equity Agenda in Parliament",
-date: "April 2025",
+date: "May 2025",
 img: parliament,
 },
 ];

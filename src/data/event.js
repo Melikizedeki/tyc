@@ -42,7 +42,7 @@ Through these efforts, TYC demonstrates its commitment to community development,
   {
     id: 3,
     title: "TYC Pushes Gender Equity Agenda in Parliament",
-    date: "April 2025",
+    date: "May 2025",
     image: parliament,
     description:
       "TYC  Executive Director with Ten/Met Bord Chairperson, UNICEF & UNESCO Developemnt Partners in Collaboration with the Minister  of Education office, during presentation of Education budget at Dodoma parliamentary  hall on May-2025",
@@ -52,12 +52,13 @@ Through these efforts, TYC demonstrates its commitment to community development,
   },
   {
     id: 4,
-    title: "End Violence Against Children",
+    title: "Empowering Youth with Computer Skills in Shinyanga",
     date: "June 2025",
     image: violence,
     description:
-      "TYC successfully convened the End Violence Against Children (VAC) Caucus Meeting. The event brought together stakeholders committed to safeguarding children’s rights and promoting protective systems across Tanzania.",
-    gallery: [violence]
+      `TYC (Tanzanian Youth and Children), focuses on empowering young people in Shinyanga by providing them with essential computer knowledge and digital skills. The program aims to introduce youth to the basics of computer use, internet access, and modern technology so they can better participate in education, communication, and future job opportunities.
+
+Through interactive learning sessions and practical demonstrations, participants gain hands-on experience with computers and learn how technology can be used for learning, creativity, and innovation. The event is part of TYC’s mission to support youth development and promote digital inclusion within the Shinyanga community.`
   },
 ];
 
